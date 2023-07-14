@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/zbook/embitude/bbb-builds/OS/linux-4.19.103",
+                "/home/zbook/embitude/bbb-builds/OS/linux-4.19.103/include"
+            ],
+            "defines": [],
+            "compilerPath": "arm-linux-gnueabihf-gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-arm",
+            "compilerArgs": [],
+            "compileCommands": "make ARCH=$(ARCH) CROSS_COMPILE=$(CROSS_COMPILE) -C $(KERN_DIR) M=$(PWD) modules"
+        }
+    ],
+    "version": 4
+}
