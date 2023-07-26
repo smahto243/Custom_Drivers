@@ -4,11 +4,11 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/home/zbook/embitude/bbb-builds/OS/linux-4.19.103",
-                "/home/zbook/embitude/bbb-builds/OS/linux-4.19.103/include"
+                "/home/zbook/linux_rpi3/linux",
+                "/home/zbook/linux_rpi3/linux/nclude"
             ],
             "defines": [],
-            "compilerPath": "arm-linux-gnueabihf-gcc",
+            "compilerPath": "/opt/gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc",
             "cStandard": "gnu17",
             "cppStandard": "gnu++14",
             "intelliSenseMode": "linux-gcc-arm",
